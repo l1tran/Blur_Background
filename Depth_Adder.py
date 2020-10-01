@@ -73,7 +73,7 @@ def click_event(event,x,y,flags,param):
 def nothing(x):
     img1.blurSet = True
 #Create an image class object 
-img1 = img('JapanWalk.JPG')
+img1 = img('messi5.jpg')
 
 #std variables for Grabcut
 bgdModel = np.zeros((1,65),np.float64)
@@ -145,5 +145,6 @@ while True:
         elif keyPress == 1:
             img1.maskType = True 
             keyPress = 0
-
+    elif k == ord('s'):
+        cv2.imwrite('Blur_Copy.jpg',result)
 cv2.destroyAllWindows()
