@@ -4,6 +4,7 @@
 REQUIRED LIBRARIES
 1. Opencv
 2. Numpy
+
 INSTRUCTIONS
 1. Open Depth_Adder.py in a Python IDE such as Pycharm or Visual Studio Code
 2. Replace image name on line 76 with the location of the image you want to add depth then run
