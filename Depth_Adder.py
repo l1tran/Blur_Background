@@ -73,9 +73,7 @@ def click_event(event,x,y,flags,param):
 def nothing(x):
     img1.blurSet = True
 #Create an image class object 
-#img1 = img('lena.jpg')
 img1 = img('JapanWalk.JPG')
-#img1 = img('mess5.jpg')
 
 #std variables for Grabcut
 bgdModel = np.zeros((1,65),np.float64)
