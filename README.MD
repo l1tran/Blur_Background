@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-         Add a depth of field effect to an image based on user input
+   Add a depth of field effect to an image based on user input using OpenCV
 --------------------------------------------------------------------------------
 REQUIRED LIBRARIES
 1. Opencv
